@@ -1,0 +1,12 @@
+flask==2.3.3
+pyodbc==5.1.0
+langchain==0.3.0
+langchain-groq==0.2.0
+langchain-community==0.3.0
+langchain-huggingface==0.1.0
+qdrant-client==1.11.0
+huggingface_hub==0.25.0
+sentence-transformers==3.1.0
+numpy==1.26.4
+gunicorn==22.0.0
+gradio==4.40.0

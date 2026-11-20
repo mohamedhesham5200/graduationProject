@@ -1,0 +1,36 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Build files
+node_modules/
+bin/
+obj/
+dist/
+
+# IDE files
+.vs/
+.vscode/
+
+# User-specific files
+*.user
+
+# Logs
+*.log
+
+
+
+# Sensitive configuration
+**/.env
+**/appsettings.json
+**/appsettings.Development.json
+**/PublishProfiles/
+
+# Nested Git repositories
+**/.git/
+
+# Demo video (too large for GitHub)
+Presentation/Demo/Learnify_Demo.mp4
+
+**/.git_backup/
